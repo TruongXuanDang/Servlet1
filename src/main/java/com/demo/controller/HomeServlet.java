@@ -38,9 +38,13 @@ public class HomeServlet extends HttpServlet {
         String name = request.getParameter("name");
         String phone = request.getParameter("phone");
         System.out.println(name);
+
+        String token = request.getHeader("token");
+
         PrintWriter out = response.getWriter();
         out.println(name);
         out.println(phone);
+        out.println(token);
     }
 
     @Override
