@@ -12,5 +12,7 @@
 </head>
 <body>
     <h1>INDEX</h1>
+
+    <a href="detail">Go Detail</a>
 </body>
 </html>
